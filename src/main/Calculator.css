@@ -1,0 +1,13 @@
+.calculator{
+    height: 320px; 
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden; /* other things that do not belong to the calculator are hidden */
+
+    display: grid;
+    grid-template-columns: repeat(4,25%); /* 4 columns of the same size */
+    grid-template-rows: 1fr 48px 48px 48px 48px;
+}
+
+
+

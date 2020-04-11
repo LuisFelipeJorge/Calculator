@@ -1,0 +1,11 @@
+.display {
+    grid-column: span 4; /*occupies the 4 columns*/
+    background-color: #0004;
+
+    display: flex; /* Transforms the element in a flex container*/
+    justify-content: flex-end; /* place to the right of the display*/
+    align-items: center; /* centers vertically*/
+    padding: 20px; /* creates a space between the number and the border*/
+    font-size: 2.1em;    
+    overflow: hidden;
+}
